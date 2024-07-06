@@ -2,13 +2,9 @@
 
 
 
-# 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
-# 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
-# numero_01 = int(input("Inserir um numero inteiro: "))
-# numero_02 = int(input("Inserir outro numero inteiro: "))
-# resultado = numero_01 // numero_02
-# print(resultado)
+
+
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
@@ -74,7 +70,24 @@ __author__ = "Tiago Fialho"
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 
-valor = int(input("Informe um valor: "))
-resto_divisao = valor % 5
+# valor = int(input("Informe um valor: "))
+# resto_divisao = valor % 5
 
-print(f"O resto da divisão de {valor} por 5 é {resto_divisao}")
+# print(f"O resto da divisão de {valor} por 5 é {resto_divisao}")
+
+# 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+
+# valor1 = float(input("Informe um valor: "))
+# valor2 = float(input("Informe outro valor: "))
+
+# produto = valor1 * valor2
+
+# print(f"O produto de {valor1} por {valor2} é {produto}")
+
+# 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+
+numerador = int(input("Informe o numerador: "))
+denominador = int(input("Informe o denominador: "))
+
+resultado = numerador // denominador
+print(f"A parte inteira da divisão de {numerador} por {denominador} é {resultado}")
