@@ -1,6 +1,6 @@
 
 
-# 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
@@ -97,18 +97,27 @@ import math
 
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 
-valores = []
+# valores = []
 
-valor1 = float(input("Primeiro valor: "))
-valores.append(valor1)
+# valor1 = float(input("Primeiro valor: "))
+# valores.append(valor1)
 
-print(valores[0])
+# print(valores[0])
 
-valor2 = float(input("Segundo valor: "))
-valores.append(valor2)
+# valor2 = float(input("Segundo valor: "))
+# valores.append(valor2)
 
-divisor = len(valores)
+# divisor = len(valores)
 
-media = (valores[0] + valores[1]) / divisor
+# media = (valores[0] + valores[1]) / divisor
 
-print(f"Média = {media:.2f}")
+# print(f"Média = {media:.2f}")
+
+
+# 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+
+base = float(input("Informe o número base: "))
+expoente = float(input("Informe o expoente: "))
+
+resultado = math.pow(base, expoente)
+print(f"O resultado é {resultado}")
