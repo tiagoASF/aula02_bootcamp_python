@@ -1,7 +1,7 @@
 
 
 
-# 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
 #raio_do_circulo = float(input("Digite o raio: "))
@@ -19,7 +19,7 @@
 
 # data_do_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
 # lista_de_dia_mes_ano = data_do_usuario.split("/")
-# print(f"O elemento 1 e o: {lista_de_dia_mes_ano[0]}")
+# print(f"O elemento 1 e o: {lista_deñ_dia_mes_ano[0]}")
 # print(f"O elemento 2 e o: {lista_de_dia_mes_ano[1]}")
 # print(f"O elemento 3 e o: {lista_de_dia_mes_ano[2]}")
 
@@ -116,8 +116,14 @@ import math
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 
-base = float(input("Informe o número base: "))
-expoente = float(input("Informe o expoente: "))
+# base = float(input("Informe o número base: "))
+# expoente = float(input("Informe o expoente: "))
 
-resultado = math.pow(base, expoente)
-print(f"O resultado é {resultado}")
+# resultado = math.pow(base, expoente)
+# print(f"O resultado é {resultado}")
+
+# 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+temperatura_c = float(input("Temperatura em Celcius: "))
+
+temperatura_f = (temperatura_c * 1.8) + 32
+print(f"{temperatura_c}ºC corresponde a {temperatura_f:.1f}ºF")
