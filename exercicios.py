@@ -58,6 +58,7 @@
 __version__ = "0.1.0"
 __author__ = "Tiago Fialho"
 
+import math
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 # valor1 = int(input("Informe o primeiro valor: "))
@@ -86,8 +87,15 @@ __author__ = "Tiago Fialho"
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
-numerador = int(input("Informe o numerador: "))
-denominador = int(input("Informe o denominador: "))
+# numerador = int(input("Informe o numerador: "))
+# denominador = int(input("Informe o denominador: "))
 
-resultado = numerador // denominador
-print(f"A parte inteira da divisão de {numerador} por {denominador} é {resultado}")
+# resultado = numerador // denominador
+# print(f"A parte inteira da divisão de {numerador} por {denominador} é {resultado}")
+
+# 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+
+valor = int(input("Informe o valor inteiro: "))
+quadrado = math.pow(valor, 2)
+print(f"O quadrado de {valor} é {quadrado}")
+
