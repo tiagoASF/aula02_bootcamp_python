@@ -5,7 +5,7 @@
 
 # #### Strings (`str`)
 
-# 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
@@ -130,8 +130,14 @@ import math
 # area_do_circulo_formatada = "{:.2f}".format(area_do_circulo)
 #print(f"{area_do_circulo:.2f}")
 
-raio = float(input("Informe o raio do círculo: "))
-area = math.pi * raio ** 2
-area_formatada = "{:.2f}".format(area)
+# raio = float(input("Informe o raio do círculo: "))
+# area = math.pi * raio ** 2
+# area_formatada = "{:.2f}".format(area)
 
-print(f"Área do círculo: {area_formatada}")
+# print(f"Área do círculo: {area_formatada}")
+
+# 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+
+minha_frase = input("Escreva sua frase: ")
+print(minha_frase.upper())
+
