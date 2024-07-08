@@ -139,5 +139,13 @@ import math
 
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 
-frase = input("Insira uma frase com espaço no início e fim: ")
-print(frase.strip())
+# frase = input("Insira uma frase com espaço no início e fim: ")
+# print(frase.strip())
+
+# 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+
+data_inserida = input("Informe a data dd/mm/aa: ")
+dia, mes, ano = data_inserida.split("/")
+print("Dia: ", dia)
+print("Mês: ", mes)
+print("Ano: ", ano)
