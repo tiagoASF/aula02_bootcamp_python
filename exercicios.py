@@ -1,17 +1,5 @@
 
 
-
-# data_do_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
-# lista_de_dia_mes_ano = data_do_usuario.split("/")
-# print(f"O elemento 1 e o: {lista_deñ_dia_mes_ano[0]}")
-# print(f"O elemento 2 e o: {lista_de_dia_mes_ano[1]}")
-# print(f"O elemento 3 e o: {lista_de_dia_mes_ano[2]}")
-
-# #### Booleanos (`bool`)
-
-# 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
-# 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
-# 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
@@ -150,6 +138,21 @@ import math
 # print("Ano: ", ano)
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
-frases = input("escreva duas frases em sequência: ")
-frase1, frase2 = frases.split(",")
-print(f"Frase concatenada: {frase1} {frase2}")
+# frases = input("escreva duas frases em sequência: ")
+# frase1, frase2 = frases.split(",")
+# print(f"Frase concatenada: {frase1} {frase2}")
+
+# 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+# 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+# 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+
+expressao1 = True
+expressao2 = False
+resultadoAND = expressao1 and expressao2
+resultadoOR = expressao1 or expressao2
+resultado1Inverso = not expressao1
+resultado2Inverso = not expressao2
+print(f"Valores informados: {expressao1} e {expressao2}")
+print(f"AND: {resultadoAND}")
+print(f"OR: {resultadoOR}")
+print(f"Inversos: {resultado1Inverso}, {resultado2Inverso}")
