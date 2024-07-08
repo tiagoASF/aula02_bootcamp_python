@@ -1,6 +1,5 @@
 
-# 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
-# 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+
 
 # data_do_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
 # lista_de_dia_mes_ano = data_do_usuario.split("/")
@@ -144,8 +143,13 @@ import math
 
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
 
-data_inserida = input("Informe a data dd/mm/aa: ")
-dia, mes, ano = data_inserida.split("/")
-print("Dia: ", dia)
-print("Mês: ", mes)
-print("Ano: ", ano)
+# data_inserida = input("Informe a data dd/mm/aa: ")
+# dia, mes, ano = data_inserida.split("/")
+# print("Dia: ", dia)
+# print("Mês: ", mes)
+# print("Ano: ", ano)
+
+# 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+frases = input("escreva duas frases em sequência: ")
+frase1, frase2 = frases.split(",")
+print(f"Frase concatenada: {frase1} {frase2}")
