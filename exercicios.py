@@ -1,7 +1,6 @@
 
 
-# 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
-# 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+
 
 # #### try-except e if
 
@@ -146,13 +145,24 @@ import math
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 
-expressao1 = True
-expressao2 = False
-resultadoAND = expressao1 and expressao2
-resultadoOR = expressao1 or expressao2
-resultado1Inverso = not expressao1
-resultado2Inverso = not expressao2
-print(f"Valores informados: {expressao1} e {expressao2}")
-print(f"AND: {resultadoAND}")
-print(f"OR: {resultadoOR}")
-print(f"Inversos: {resultado1Inverso}, {resultado2Inverso}")
+# expressao1 = True
+# expressao2 = False
+# resultadoAND = expressao1 and expressao2
+# resultadoOR = expressao1 or expressao2
+# resultado1Inverso = not expressao1
+# resultado2Inverso = not expressao2
+# print(f"Valores informados: {expressao1} e {expressao2}")
+# print(f"AND: {resultadoAND}")
+# print(f"OR: {resultadoOR}")
+# print(f"Inversos: {resultado1Inverso}, {resultado2Inverso}")
+
+# 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+# 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+
+valor1 = float(input("Informe um valor: "))
+valor2 = float(input("Informe outro valor: "))
+
+if (valor1 == valor2):
+    print("Os valores informados saão iguais!")
+else:
+    print("Os valores são diferentes")
